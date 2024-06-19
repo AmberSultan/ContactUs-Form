@@ -1,75 +1,21 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# 📠Contact Form using React Js
+This project is a simple React component that implements a form with validation using built-in HTML5 features and React hooks (useState & useRef)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Visit Project at
+<a href="https://contact-us-form-lemon.vercel.app/">https://contact-us-form.vercel.app/</a>
 
-## Available Scripts
+## Features
+- Allows users to input their contact information and a message.
+- Includes optional input fields based on user selection (organization name).
+- Validates required fields before submission.
+- Provides feedback to users on form validation status.
 
-In the project directory, you can run:
+## Technologies Used
+- <b>React:<b/>  Front-end JavaScript library for building user interfaces.
+- <b>HTML5:<b/> Used for form structure and input validation.
+- <b>CSS:<b/> Styling the form for better user experience.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# ContactUs-Form
-This project is made by using React.js
->>>>>>> 7d1967eda3a2ce58d96a9bc793dbc7d39582926e
+## Usage
+- Fill out all required fields (marked with *) in the form.
+- Select "Yes" for the question "Part of any organization?" to reveal an additional input field for the organization name.
+- Click the "Submit" button to validate the form and see the submission message if all required fields are filled.
