@@ -1,0 +1,43 @@
+.right{
+    /* padding-left: 10px; */
+    margin-left: 20%;
+}
+h2{
+    color: #e95783;
+    margin-top: -100px;
+}
+p{
+    width: 80%;
+}
+label{
+    display: block;
+    color: #e95783;
+}
+
+select {
+  /* margin-top: 20px; */
+  border-radius: 7px;
+  padding-left: 10px; 
+  height: 40px;
+  background-color: rgb(175, 171, 171);
+  border: none;
+  color: rgb(0, 0, 0);
+  width: 40%;
+}
+
+option {
+  padding: 8px;
+  background-color: rgb(175, 171, 171); /* Match the background color of inputs */
+  color: rgb(0, 0, 0); /* Match the text color of inputs */
+  font-size: 15px;
+}
+
+option:hover {
+  background-color: #e95783; /* Hover background color */
+  color: #ffffff; /* Hover text color */
+}
+
+option:checked {
+  background-color: #e95783; /* Selected background color */
+  color: #ffffff; /* Selected text color */
+}

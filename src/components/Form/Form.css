@@ -1,0 +1,51 @@
+.form {
+    padding: 20px 150px;
+    margin-top: -2.5%;
+  }
+  
+  .first, .two, .three {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  input{
+    border-radius: 7px;
+    padding-left: 8px; /* Adjust padding to align with select */
+    height: 30px;
+    background-color: rgb(175, 171, 171);
+    border: none;
+    color: rgb(0, 0, 0);
+    /* width: calc(100% - 8px);  */
+  }
+  
+  .msg textarea {
+    border-radius: 7px;
+    padding-left: 6px;
+    height: 80px;
+    background-color: rgb(175, 171, 171);
+    border: none;
+    color: rgb(0, 0, 0);
+    width: 90%;
+  }
+  
+  .btn button {
+    padding: 10px 30px;
+    background-color: #e95783;
+    border: none;
+    color: aliceblue;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 400;
+  }
+  
+  .btn button:hover {
+    cursor: pointer;
+    background-color: #e94b7b;
+  }
+
+  .question{
+    margin-top: -10px;
+    color: grey;
+  }
